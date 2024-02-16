@@ -1,0 +1,9 @@
+package in.nileshit.bindings;
+
+public class Book {
+	
+	private Integer  bookID ;
+	private String bookName ;
+	private Double bookPrice ;
+
+}

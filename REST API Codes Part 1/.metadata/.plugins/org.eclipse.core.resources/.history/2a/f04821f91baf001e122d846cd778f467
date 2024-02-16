@@ -1,0 +1,8 @@
+package in.nileshit.controller;
+
+@Controller
+public class IndexController {
+
+	
+
+}

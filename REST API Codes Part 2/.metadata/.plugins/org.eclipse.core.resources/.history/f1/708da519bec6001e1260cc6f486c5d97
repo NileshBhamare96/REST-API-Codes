@@ -1,0 +1,48 @@
+package in.nileshit.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.nileshit.entity.Student;
+import in.nileshit.repository.StudentRepository;
+
+class StudentServiceImpl implements StudentService {
+
+	@Autowired
+	private StudentRepository repository;
+
+	@Override
+	public String addStudnetInfo(Student student) {
+		Integer studentId = student.getStudentId();
+
+		repository.save(student);
+		if(studentId = null)
+		{
+			return "Student Information Inserted";
+		}
+		else
+		{
+			return "Student Information Updated";
+		}
+	}
+
+	@Override
+	public String updateStudnetInfo(Student sobj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteStudent(Integer studentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

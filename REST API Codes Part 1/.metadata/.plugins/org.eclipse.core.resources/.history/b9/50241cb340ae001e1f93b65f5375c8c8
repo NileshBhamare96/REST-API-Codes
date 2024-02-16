@@ -1,0 +1,30 @@
+package in.nileshit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.nileshit.entity.User;
+import in.nileshit.repo.UserRepository;
+import lombok.Data;
+
+@Service
+
+public class UserService {
+	
+	@Autowired
+	private UserRepository userRepo ;
+	
+	public void saveUser()
+	{
+		String imagePath = "D:\\SBMS ASHOK IT\\techTycoons.jpg" ;
+		
+		byte arr[] = new byte [(int)size] ;
+		
+		User user = new User();
+		user.setUserEmail("nilesh@gmail.com");
+		user.setUserName("Nilesh");
+		user.setUserImage();
+	}
+	
+
+}

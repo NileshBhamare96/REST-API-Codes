@@ -1,0 +1,15 @@
+package in.nileshit.entity;
+
+import java.time.LocalDateTime;
+
+public class Product {
+	
+	private int pid ;
+	private String pname ;
+	private double price ;
+	private LocalDateTime createdDate ;
+	private LocalDateTime updatedDate ;
+
+
+
+}

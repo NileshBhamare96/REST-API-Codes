@@ -1,0 +1,5 @@
+package in.nileshit.repository;
+
+public interface ProductRepository {
+
+}

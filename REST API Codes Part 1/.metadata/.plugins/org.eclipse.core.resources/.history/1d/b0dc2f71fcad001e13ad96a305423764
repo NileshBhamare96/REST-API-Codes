@@ -1,0 +1,9 @@
+package in.nileshit.entity;
+
+public class AccountPK {
+
+	public AccountPK() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

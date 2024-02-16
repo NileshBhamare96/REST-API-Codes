@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ReportService.java&apos; to &apos;09-SpringBoot-Autowired-FieldInjection/src/main/java/in.nileshit.service&apos;&#x0D;&#x0A;- Original project: &apos;08-SpringBoot-Autowired-Primary&apos;&#x0D;&#x0A;- Destination element: &apos;09-SpringBoot-Autowired-FieldInjection/src/main/java/in.nileshit.service&apos;&#x0D;&#x0A;- Original element: &apos;in.nileshit.service.ReportService.java&apos;" description="Copy compilation unit" destination="=09-SpringBoot-Autowired-FieldInjection/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nileshit.service" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nileshit.service{ReportService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704314638560" units="1" version="1.0"/>
+</session>

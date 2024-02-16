@@ -1,0 +1,18 @@
+package in.nileshit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+import in.nileshit.formbindings.Product;
+
+@Controller
+public class ProductController {
+
+	public String getProductForm(Model model) {
+		Product productObj = new Product();
+		model.addAttribute("product", productObj);
+		return "index";
+
+	}
+
+}

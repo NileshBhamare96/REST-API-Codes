@@ -1,0 +1,18 @@
+package in.nileshit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import in.nileshit.bindings.User;
+
+@Controller
+public class UserController {
+
+	@GetMapping("/")
+	public String getForm(Model model) {
+		User userObj = new User();
+		model.addAttribute("user", userObj);
+		return "index";
+	}
+}

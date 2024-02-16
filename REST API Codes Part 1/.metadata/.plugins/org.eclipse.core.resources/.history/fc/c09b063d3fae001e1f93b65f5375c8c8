@@ -1,0 +1,22 @@
+package in.nileshit.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name="USER_BLOB_APP")
+@Data
+public class User {
+	
+	private Integer userId ;
+	
+	private String userName ;
+	
+	private String userEmail ;
+	
+	private byte[]userImage ;
+
+
+
+}

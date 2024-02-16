@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Nilesh-SB-App
+    
+nileshit:
+  messages:
+    welcomeMsg: Welcome To Ashok IT
+    greetMsg: Good Morning
+    wishMsg: All the best
+           

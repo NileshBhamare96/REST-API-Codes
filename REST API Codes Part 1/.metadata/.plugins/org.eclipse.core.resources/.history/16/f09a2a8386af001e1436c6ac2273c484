@@ -1,0 +1,17 @@
+package in.nileshit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class GreetController {
+	
+	public String getGreetMsg(Model model)
+	{
+		String msgTxt = "Good Morning...!!!" ;
+		
+		model.addAttribute("msg", msgTxt) ;
+		return "greet" ;
+	}
+
+}

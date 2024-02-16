@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+	<id>101</id>
+	<name>Nilesh</name>
+	<PhoneNum>12575757</PhoneNum>
+	<adress>
+		<city>Nampur</city>
+		<country>India</country>
+		<state>Maharshtra</state>
+	</adress>
+</person>

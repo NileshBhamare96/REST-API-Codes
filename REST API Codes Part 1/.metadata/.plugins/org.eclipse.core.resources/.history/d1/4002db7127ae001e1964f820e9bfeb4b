@@ -1,0 +1,26 @@
+package in.nileshit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.nileshit.entity.Employee;
+import in.nileshit.repo.AddressRepository;
+import in.nileshit.repo.EmployeeRepository;
+
+public class EmployeeService {
+
+	private EmployeeRepository empRepo;
+	private AddressRepository addrRepo;
+    
+	@Autowired  // no need
+	public EmployeeService(EmployeeRepository empRepo, AddressRepository addrRepo) {
+		super();
+		this.empRepo = empRepo;
+		this.addrRepo = addrRepo;
+	}
+	
+	public void saveData()
+	{
+		Employee emp = new Employee();
+	}
+
+}

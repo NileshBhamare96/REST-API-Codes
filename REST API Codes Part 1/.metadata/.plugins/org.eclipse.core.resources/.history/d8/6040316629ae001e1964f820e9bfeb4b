@@ -1,0 +1,41 @@
+package in.nileshit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.nileshit.entity.Address;
+import in.nileshit.entity.Employee;
+import in.nileshit.repo.AddressRepository;
+import in.nileshit.repo.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+
+	private EmployeeRepository empRepo;
+	private AddressRepository addrRepo;
+    
+	@Autowired  // no need
+	public EmployeeService(EmployeeRepository empRepo, AddressRepository addrRepo) {
+		super();
+		this.empRepo = empRepo;
+		this.addrRepo = addrRepo;
+	}
+	
+	public void saveData()
+	{
+		Employee emp = new Employee();
+		emp.setEmpID(101);
+		emp.setEmpName("Nilesh Bhamare");
+		emp.setEmpSal(45000.00);
+		empRepo.save(emp);
+		
+		Address addr = new Address();
+		addr.setAddressId(201);
+		addr.setCity("Nampur");
+		addr.setState("Maharashtra");
+		addr.setCountry("India");
+		addr.setEmpId(101);
+		addrRepo.save(addr);
+	}
+
+}

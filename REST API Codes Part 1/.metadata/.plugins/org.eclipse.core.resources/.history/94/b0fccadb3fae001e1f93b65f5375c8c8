@@ -1,0 +1,6 @@
+package in.nileshit.service;
+
+@Service
+public class UserService {
+
+}

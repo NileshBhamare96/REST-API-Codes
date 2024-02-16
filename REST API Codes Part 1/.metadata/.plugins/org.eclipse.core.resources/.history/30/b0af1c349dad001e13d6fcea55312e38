@@ -1,0 +1,23 @@
+package in.nileshit;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.nileshit.entity.Product;
+import in.nileshit.repository.ProductRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+	
+	    ProductRepository repository = context.getBean(ProductRepository.class);
+	    
+	    Product p1 = new Product(101, "Keyboard", 300, null, null)
+	
+	
+	}
+
+}

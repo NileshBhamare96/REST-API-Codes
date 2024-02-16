@@ -1,0 +1,28 @@
+package in.nileshit.service;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepo;
+
+	public void saveUser() throws Exception {
+
+		String imagePath = "give-file-path";
+
+		User user = new User();
+		user.setUserName("Suresh");
+		user.setUserEmail("suresh@gmail.com");
+
+		long size = Files.size(Paths.get(imagePath));
+
+		byte[] arr = new byte[(int) size];
+		FileInputStream fis = new FileInputStream(new File(imagePath));
+		fis.read(arr);
+		fis.close();
+
+		user.setUserImage(arr);
+
+		userRepo.save(user);
+	}
+}

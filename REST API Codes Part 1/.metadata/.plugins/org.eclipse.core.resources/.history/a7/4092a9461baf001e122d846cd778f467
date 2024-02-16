@@ -1,0 +1,23 @@
+package in.nileshit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class SecondController { 
+	
+	public ModelAndView getWishMsg() {
+		
+		ModelAndView mav = new ModelAndView();
+		
+		mav.addObject("msg","All the Best Guys");
+		
+		return mav ;
+		
+	}
+	
+	
+
+	
+
+}

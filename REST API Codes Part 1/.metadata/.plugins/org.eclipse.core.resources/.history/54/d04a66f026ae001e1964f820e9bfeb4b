@@ -1,0 +1,11 @@
+package in.nileshit.service;
+
+import in.nileshit.repo.AddressRepository;
+import in.nileshit.repo.EmployeeRepository;
+
+public class EmployeeService {
+	
+    private EmployeeRepository empRepo ;
+	private AddressRepository  addrRepo;
+
+}

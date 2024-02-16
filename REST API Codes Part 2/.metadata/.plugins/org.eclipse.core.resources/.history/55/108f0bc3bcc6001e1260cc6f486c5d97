@@ -1,0 +1,15 @@
+package in.nileshit.service;
+
+import java.util.List;
+
+import in.nileshit.entity.Student;
+
+public interface StudentService {
+	public String addStudnetInfo(Student sobj);
+	public String updateStudnetInfo(Student sobj);
+
+	public List<Student> getAllStudents();
+
+	public String deleteStudent(Integer studentId);
+
+}

@@ -1,0 +1,9 @@
+package in.nileshit.entity;
+
+public class Address {
+
+	public Address() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

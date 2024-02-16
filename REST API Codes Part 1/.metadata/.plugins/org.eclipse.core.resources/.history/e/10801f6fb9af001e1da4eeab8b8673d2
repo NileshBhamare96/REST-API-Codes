@@ -1,0 +1,7 @@
+
+# view resolver configuration in application.properties
+spring.mvc.view.prefix= /views/
+spring.mvc.view.suffix= .jsp
+
+
+#prefix + viewname + suffix 

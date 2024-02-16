@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\SBMS ASHOK IT\CODE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4037792833.index
+3098008283.index
+778407698.index
+463213560.index
+1161081887.index
+183512698.index

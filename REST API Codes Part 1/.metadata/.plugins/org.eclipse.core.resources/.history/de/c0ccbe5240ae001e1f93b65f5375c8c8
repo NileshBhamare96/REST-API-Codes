@@ -1,0 +1,19 @@
+package in.nileshit.service;
+
+import org.springframework.stereotype.Service;
+
+import in.nileshit.repo.UserRepository;
+import lombok.Data;
+
+@Service
+@Data
+public class UserService {
+	
+	private UserRepository userRepo ;
+	
+	public void saveUser()
+	{
+	}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;in.nileshit.service.StudentImpl.java&apos; to &apos;StudentServiceImpl.java&apos;&#x0D;&#x0A;- Original project: &apos;Student_CRUD_App&apos;&#x0D;&#x0A;- Original element: &apos;in.nileshit.service.StudentImpl.java&apos;&#x0D;&#x0A;- Renamed element: &apos;in.nileshit.service.StudentServiceImpl.java&apos;" description="Rename compilation unit &apos;StudentImpl.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nileshit.service{StudentImpl.java" name="StudentServiceImpl.java" references="false" stamp="1707420379769" version="1.0"/>
+</session>

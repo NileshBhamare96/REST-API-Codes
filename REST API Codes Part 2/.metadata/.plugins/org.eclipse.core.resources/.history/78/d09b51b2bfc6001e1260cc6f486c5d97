@@ -1,0 +1,9 @@
+package in.nileshit.rest;
+
+public class StudentRestController {
+
+	public StudentRestController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

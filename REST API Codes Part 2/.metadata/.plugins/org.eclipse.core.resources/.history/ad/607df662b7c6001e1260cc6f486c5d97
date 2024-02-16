@@ -1,0 +1,9 @@
+package in.nileshit.service;
+
+abstract sealed class StudentImpl {
+
+	public StudentImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

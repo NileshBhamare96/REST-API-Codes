@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<!-- bean definitions here -->
+
+
+	<!-- <bean id = "dieselengine" class = "in.nileshit.DieselEngine"></bean> -->
+	<!-- <bean id = "car " class = "in.nileshit.Car" autowire="byName"
+	></bean >-->
+
+
+	<!-- <bean id="xyz" class="in.nileshit.DieselEngine"
+	autowire-candidate="false"></bean>
+	
+	<bean id="abc" class="in.nileshit.DieselEngine"
+	autowire-candidate="false"></bean>
+	
+	<bean id="pqr" class="in.nileshit.DieselEngine"></bean>
+
+	<bean id="car " class="in.nileshit.Car" autowire="byType"></bean> -->
+
+
+	<bean id="abc" class="in.nileshit.DieselEngine" autowire-candidate="false"></bean>
+
+	<bean id="pqr" class="in.nileshit.DieselEngine"></bean>
+
+	<bean id="car " class="in.nileshit.Car" autowire="constructor"></bean>
+
+	<!--  <bean id="car " class="in.nileshit.Car" autowire="no"></bean>-->
+
+
+</beans>

@@ -1,0 +1,14 @@
+package in.nileshit.entity;
+
+import lombok.Data;
+
+@Data
+public class AccountPK {
+	
+	private Integer accId ;
+	private String accType ;
+	private String holderName ;
+
+	
+
+}

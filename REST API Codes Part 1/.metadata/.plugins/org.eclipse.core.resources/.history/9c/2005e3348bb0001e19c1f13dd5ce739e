@@ -1,0 +1,17 @@
+package in.nileshit.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+import in.nileshit.bindings.Product;
+
+public class ProductController {
+	
+	public ModelAndView loadForm()
+	{
+		ModelAndView mav =  new ModelAndView();
+		mav.addObject("product", new Product());
+		mav.setViewName("productView");
+		return mav ;
+	}
+
+}

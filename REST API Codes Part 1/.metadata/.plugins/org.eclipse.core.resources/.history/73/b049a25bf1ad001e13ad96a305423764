@@ -1,0 +1,13 @@
+package in.nileshit.repository;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import in.nileshit.entity.User;
+
+public interface userRepository extends CrudRepository<User, Integer> {
+
+
+
+}
